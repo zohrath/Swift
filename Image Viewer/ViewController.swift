@@ -16,8 +16,7 @@ class ViewController: UITableViewController {
         for item in items {
             if item.hasPrefix("fest"){
                 pictures.append(item)
-                }
-        print(pictures)
+            }
         }
     }
         // Do any additional setup after loading the view, typically from a nib.
