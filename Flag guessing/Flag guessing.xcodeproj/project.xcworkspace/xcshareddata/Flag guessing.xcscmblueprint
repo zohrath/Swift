@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8D7BC457CCB545F2D0434FF2FDB0A9C3E75708C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E8D7BC457CCB545F2D0434FF2FDB0A9C3E75708C" : 9223372036854775807,
+    "3932E3A3AF1195F9C9DAF2D71534FA638EC2C458" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1282C7AA-4BDB-4884-B85B-BB6AD2E2870D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E8D7BC457CCB545F2D0434FF2FDB0A9C3E75708C" : "Swift\/",
+    "3932E3A3AF1195F9C9DAF2D71534FA638EC2C458" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Flag guessing",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Flag guessing\/Flag guessing.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zohrath\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3932E3A3AF1195F9C9DAF2D71534FA638EC2C458"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zohrath\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8D7BC457CCB545F2D0434FF2FDB0A9C3E75708C"
+    }
+  ]
+}
