@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Flag guessing
-//
-//  Created by Adam Woods on 2017-06-01.
-//  Copyright © 2017 Adam Woods. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
