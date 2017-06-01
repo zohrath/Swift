@@ -27,10 +27,15 @@ class Node {
     }
     
     func read(node: Node) {
+        //TODO: In-order traversal print of tree
         if (self.left != nil) {
             self.read(node: self.left!)
         }
-        
     }
+    func getValue(arg: Int) {
+        //TODO: Get value from specific node matching an argument
+    }
+    
+    
     
 }
