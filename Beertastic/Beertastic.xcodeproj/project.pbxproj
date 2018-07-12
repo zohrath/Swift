@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AB0B1BA2205AC24500001F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BA1205AC24500001F4D /* AppDelegate.swift */; };
-		AB0B1BA4205AC24500001F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BA3205AC24500001F4D /* ViewController.swift */; };
+		AB0B1BA4205AC24500001F4D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BA3205AC24500001F4D /* LoginViewController.swift */; };
 		AB0B1BA7205AC24500001F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0B1BA5205AC24500001F4D /* Main.storyboard */; };
 		AB0B1BAA205AC24500001F4D /* Beertastic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BA8205AC24500001F4D /* Beertastic.xcdatamodeld */; };
 		AB0B1BAC205AC24500001F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0B1BAB205AC24500001F4D /* Assets.xcassets */; };
 		AB0B1BAF205AC24500001F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0B1BAD205AC24500001F4D /* LaunchScreen.storyboard */; };
 		AB0B1BBA205AC24500001F4D /* BeertasticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BB9205AC24500001F4D /* BeertasticTests.swift */; };
 		AB0B1BC5205AC24500001F4D /* BeertasticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BC4205AC24500001F4D /* BeertasticUITests.swift */; };
+		AB0B1BD3205B00A200001F4D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B1BD2205B00A200001F4D /* MainViewController.swift */; };
+		AB37E7AB20614B08003E6ADE /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37E7AA20614B08003E6ADE /* Beer.swift */; };
+		ABA443652068F873006694B5 /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA443642068F873006694B5 /* BeerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		AB0B1B9E205AC24500001F4D /* Beertastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beertastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B1BA1205AC24500001F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB0B1BA3205AC24500001F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB0B1BA3205AC24500001F4D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB0B1BA6205AC24500001F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB0B1BA9205AC24500001F4D /* Beertastic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beertastic.xcdatamodel; sourceTree = "<group>"; };
 		AB0B1BAB205AC24500001F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		AB0B1BC0205AC24500001F4D /* BeertasticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeertasticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B1BC4205AC24500001F4D /* BeertasticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeertasticUITests.swift; sourceTree = "<group>"; };
 		AB0B1BC6205AC24500001F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B1BD2205B00A200001F4D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AB37E7AA20614B08003E6ADE /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		ABA443642068F873006694B5 /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				AB0B1BA1205AC24500001F4D /* AppDelegate.swift */,
-				AB0B1BA3205AC24500001F4D /* ViewController.swift */,
+				AB0B1BA3205AC24500001F4D /* LoginViewController.swift */,
 				AB0B1BA5205AC24500001F4D /* Main.storyboard */,
+				ABA443642068F873006694B5 /* BeerCell.swift */,
+				AB37E7AA20614B08003E6ADE /* Beer.swift */,
+				AB0B1BD2205B00A200001F4D /* MainViewController.swift */,
 				AB0B1BAB205AC24500001F4D /* Assets.xcassets */,
 				AB0B1BAD205AC24500001F4D /* LaunchScreen.storyboard */,
 				AB0B1BB0205AC24500001F4D /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0B1BA4205AC24500001F4D /* ViewController.swift in Sources */,
+				AB0B1BA4205AC24500001F4D /* LoginViewController.swift in Sources */,
 				AB0B1BAA205AC24500001F4D /* Beertastic.xcdatamodeld in Sources */,
+				AB37E7AB20614B08003E6ADE /* Beer.swift in Sources */,
+				ABA443652068F873006694B5 /* BeerCell.swift in Sources */,
+				AB0B1BD3205B00A200001F4D /* MainViewController.swift in Sources */,
 				AB0B1BA2205AC24500001F4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
