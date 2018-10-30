@@ -9,5 +9,5 @@
 import Foundation
 
 class Beer: Codable {
-    var x: Int
+    
 }
